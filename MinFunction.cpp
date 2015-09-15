@@ -12,7 +12,7 @@ int minFun(int size, int array[]) {
 
     min = array[0];
     for (count = 0; count < size; count++) {
-        if (array[count] > min)
+        if (array[count] < min)
             min = array[count];
 
     }
