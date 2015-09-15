@@ -6,6 +6,7 @@
 #define LAB2_MAXFUNCTION_H
 
 
-
+//declare function in header
+int maxFun(int size, int array[]);
 
 #endif //LAB2_MAXFUNCTION_H

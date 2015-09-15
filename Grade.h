@@ -5,4 +5,7 @@
 #ifndef LAB2_GRADE_H
 #define LAB2_GRADE_H
 
+//declare function in header
+void grade(int grades[], int num);
+
 #endif //LAB2_GRADE_H
