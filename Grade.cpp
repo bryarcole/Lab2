@@ -9,22 +9,21 @@
 
 using namespace std;
 
-void grade(int array[]);
-
 void grade(int array[]) {
+    int count = 0;
 
-
-    for(int i = 0;i < 15; i++)
+    for(int count;count < 15; count++)
         cout << "test";
+        if(array[count] >= 90)
+                cout << "A" << endl;
+            else if(array[count] >= 80)
+                cout << "B" << endl;
+            else if(array[count] >= 70)
+                cout << "C" << endl;
+            else if(array[count] >= 60)
+                cout << "D" << endl;
+            else
+                cout << "F" << endl;
 
-        /* if(array[i] >= 90)
-            cout << "A" << endl;
-        else if(array[i] >= 80)
-            cout << "B" << endl;
-        else if(array[i] >= 70)
-            cout << "C" << endl;
-        else if(array[i] >= 60)
-            cout << "D" << endl;
-        else
-            cout << "F" << endl; */
+
 }

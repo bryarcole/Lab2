@@ -13,7 +13,7 @@ int grades[SIZE] = { 55, 87, 93, 77, 92, 88, 67, 81, 84, 73, 81, 92, 89, 100, 62
 
 int main() {
 
-    
+    void grade(int grades[]);
 
     return 0;
 }
